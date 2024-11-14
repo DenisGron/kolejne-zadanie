@@ -9,7 +9,6 @@ header, footer{
     color: white;
     padding: 10px;
     text-align: center;
-    clear: both;
 }
 
 main{
@@ -22,8 +21,9 @@ main{
 
 aside{
     background-color: snow;
-    width: 25%;
-    margin: 10%;
+    width: 75%;
+    height: 500px;
+    padding-top: 50px;
     text-align: center;
     float: left;
 }
@@ -34,11 +34,14 @@ img{
     box-shadow: 15px 15px 10px dimgray;
 }
 
-li{
-    color: snow;
-}
-
 h3{
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+li::marker{
+    color: snow;
+}
+footer{
+    clear: both;
 }
